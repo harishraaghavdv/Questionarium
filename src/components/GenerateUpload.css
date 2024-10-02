@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+
+.questionarium-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw; /* Ensure full width for landscape */
+  background-image: url('path-to-background-image.jpg'); /* Add the parchment-like background image */
+  background-size: cover;
+}
+
+.content-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.8); /* Optional: Add a slight white background with transparency */
+  border: 2px solid #000000; /* Border around the container box */
+  border-radius: 15px; /* Rounded corners for the box */
+  padding: 20px; /* Padding inside the box */
+  width: 80%; /* Adjust width as needed */
+  max-width: 600px; /* Optional: Set a max-width for larger screens */
+}
+
+.title {
+  font-family: 'Iceland', sans-serif;
+  font-size: 2em; /* Adjust font size for the title */
+  color: #000000;
+  margin-bottom: 20px; /* Adjust spacing for title */
+  font-weight: bold;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%; /* Ensure buttons container uses full width */
+}
+
+.btn {
+  background-color: #ffffff;
+  border: 3px solid #000000;
+  border-radius: 50px;
+  padding: 15px 30px; /* Adjust padding as needed */
+  font-size: 1.2em; /* Adjust font size for buttons */
+  color: #3b2b1a;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.icon-container {
+  margin-bottom: 5px; /* Adjust margin for icon container */
+}
+
+.icon {
+  width: 40px; /* Adjust the icon size as needed */
+}
+
+.generate-btn {
+  margin-right: 10px; /* Adjust spacing for generate button */
+}
+
+.upload-btn {
+  margin-left: 10px; /* Adjust spacing for upload button */
+}
+
+/* Media Query for Landscape Orientation */
+@media only screen and (orientation: landscape) {
+  .questionarium-container {
+    flex-direction: row; /* Align content horizontally in landscape */
+  }
+
+  .content-box {
+    flex-direction: row; /* Align content in the box horizontally in landscape */
+    width: 60%; /* Adjust width for landscape orientation */
+  }
+
+  .buttons-container {
+    flex-direction: row; /* Align buttons horizontally in landscape */
+  }
+}
