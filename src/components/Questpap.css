@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+.questionarium-container {
+  background-image: url('/path-to-background-image.png');
+  font-family: 'Iceland', sans-serif;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.questionarium-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.questionarium-header h1 {
+  font-family: 'Iceland', sans-serif;
+  font-size: 48px; /* Adjust the font size as needed */
+  color: #000; /* Adjust the color based on your design */
+  margin: 0;
+}
+
+.question-paper {
+  width: 400px; /* Adjust width as needed */
+  height: 500px; /* Adjust height as needed */
+  background-color: #f0f0f0; /* Light grey background for the question paper area */
+  border: 2px solid #000; /* Black border around the question paper area */
+  margin-bottom: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add some shadow for depth */
+}
+
+.print-button {
+  font-family: 'Iceland', sans-serif;
+  font-size: 24px;
+  padding: 10px 20px;
+  background-color: #6c4f3d; /* Button background color */
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.print-button:hover {
+  background-color: #4b3528; /* Darker shade on hover */
+}

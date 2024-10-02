@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ensures the body takes up the full viewport height */
+  background-image: url('D:\Projects\QGEN\qgenreact\src\assets\2bg.webp');
+}
+
+
+.container {
+  width: 100%;
+  max-width: 800px;
+  font-family: 'Iceland', sans-serif;
+  text-align: center;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-family: 'Iceland', sans-serif;
+  font-size: 50px;
+  color: rgb(0, 0, 0);
+  font-family: 'Iceland', sans-serif; 
+  text-align: center;
+  flex-grow: 1;
+}
+
+.dropdown-container {
+  font-family: 'Iceland', sans-serif;
+  margin: 0 auto 40px auto;
+}
+
+.dropdown {
+  font-family: 'Iceland', sans-serif;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #ffffff;
+  border: 2px solid #5a3a0a;
+  border-radius: 25px;
+  background-color: #000000;
+  width: 100%;
+  max-width: 500px;
+  cursor: pointer;
+}
+
+.logout-button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #000000;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-top: 20px;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #000000;
+}

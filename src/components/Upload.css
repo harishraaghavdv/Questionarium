@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+body, html {
+  font-family: 'Iceland', sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('/path-to-your-image.jpg'); /* Replace with your background image path */
+  background-size: cover;
+  background-position: center;
+}
+
+.upload-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.form-container {
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+  max-width: 900px;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 28px;
+  color: #4a3f35;
+  margin-bottom: 25px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-weight: bold;
+  color: #4a3f35;
+}
+
+.form-group input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.upload-section {
+  border: 2px dashed #ccc;
+  padding: 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.upload-section input[type="file"] {
+  margin-top: 15px;
+}
+
+button[type="submit"] {
+  align-self: center;
+  background-color: #000000;
+  color: #fff;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button[type="submit"]:hover {
+  background-color: #7d7d7d;
+}
