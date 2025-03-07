@@ -5,7 +5,7 @@
 
 /* Background image for landscape layout */
 .login-container {
-    background-image: url(''); /* Ensure the path is correct */
+    background-image: url('D:\Projects\QGEN\qgenreact\src\assets\bg.png'); /* Ensure the path is correct */
     background-size: cover;
     background-position: center;
     height: 100vh; /* Full viewport height */
